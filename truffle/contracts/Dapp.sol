@@ -55,7 +55,6 @@ contract Dapp {
     }
 
     function login(uint256 _number) public {
-        usersCount++;
         profilePic[msg.sender] = _number;
         userAddress.push(msg.sender);
     }
